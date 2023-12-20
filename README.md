@@ -1,4 +1,4 @@
-# Guia Intermediário para Uso do GitHub e Git
+# Guia do Iniciante ao Avançado para Uso do GitHub e Git
 
 Bem-vindo ao mundo do controle de versão com Git e hospedagem de código no GitHub! Este guia fornecerá os passos iniciais para você começar a compartilhar seus projetos de software, colaborar em projetos de outras pessoas e gerenciar suas versões de código.
 
@@ -125,3 +125,24 @@ Se você foi convidado como colaborador, aceite o convite na seção de convites
 Lembre-se, esses são passos básicos, e há muito mais para aprender. Consulte a documentação oficial do Git e documentação do GitHub para aprofundar seu conhecimento.
 
 Continue explorando e praticando para se tornar cada vez mais proficiente no uso do Git e GitHub. Boas colaborações!
+
+
+----------------------------Fim do Guia Intermediario-----------------------------
+
+Novos Conhecimentos Adquiridos
+## 15. Utilizar o Git pela Integração do VSCode
+Integre o Git diretamente no Visual Studio Code para uma experiência mais amigável e visual. Explore recursos como controle de versão, diffs e histórico de commits na interface do VSCode.
+
+## 16. Entender Conflitos de Código
+Compreenda como ocorrem conflitos de código quando dois commits modificam a mesma parte de um arquivo, especialmente em colaborações com diferentes autores.
+
+## 17. Sinalizações Visuais de Conflitos pelo Git
+O Git sinaliza visualmente conflitos diretamente no código, indicando as áreas conflitantes com marcações especiais.
+
+## 18. Resolver Conflitos Manualmente
+Quando confrontado com conflitos, resolva manualmente editando o arquivo afetado para incorporar as mudanças desejadas. Após resolver, faça um novo commit para indicar que o conflito foi resolvido.
+
+Estes são passos fundamentais ao trabalhar em equipe, garantindo que o código evolua de maneira coesa e eficiente.
+
+Continue explorando e praticando esses conceitos para aprimorar suas habilidades com o Git e GitHub. Consulte a documentação oficial do Git, documentação do GitHub, e as extensões do VSCode para Git para obter informações mais detalhadas.
+
