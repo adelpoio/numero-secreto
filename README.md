@@ -1,4 +1,4 @@
-# Guia Inicial para Uso do GitHub e Git
+# Guia Intermediário para Uso do GitHub e Git
 
 Bem-vindo ao mundo do controle de versão com Git e hospedagem de código no GitHub! Este guia fornecerá os passos iniciais para você começar a compartilhar seus projetos de software, colaborar em projetos de outras pessoas e gerenciar suas versões de código.
 
@@ -63,10 +63,6 @@ Parabéns! Você agora tem seu código no GitHub e está pronto para colaborar o
 Lembre-se de consultar a [documentação do Git](https://git-scm.com/doc) e a [documentação do GitHub](https://docs.github.com/) para aprender mais sobre as capacidades avançadas dessas poderosas ferramentas.
 
 ----------------------------Fim do Guia Iniciante-----------------------------
-
-# Guia Intermediário para Uso do GitHub e Git
-
-Parabéns por continuar sua jornada no mundo do Git e GitHub! Nesta etapa, você aprenderá a interagir ainda mais com repositórios, realizar alterações, visualizar o histórico e colaborar com outras pessoas.
 
 Novos Conhecimentos Adquiridos
 
