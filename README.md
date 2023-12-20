@@ -61,3 +61,69 @@ git push -u origin master
 Parabéns! Você agora tem seu código no GitHub e está pronto para colaborar ou compartilhar seu trabalho com outras pessoas.
 
 Lembre-se de consultar a [documentação do Git](https://git-scm.com/doc) e a [documentação do GitHub](https://docs.github.com/) para aprender mais sobre as capacidades avançadas dessas poderosas ferramentas.
+
+
+Guia Intermediário para Uso do GitHub e Git
+Parabéns por continuar sua jornada no mundo do Git e GitHub! Nesta etapa, você aprenderá a interagir ainda mais com repositórios, realizar alterações, visualizar o histórico e colaborar com outras pessoas.
+
+Novos Conhecimentos Adquiridos
+
+## 6. Baixar um Repositório com git clone
+Clone um repositório do GitHub para o seu computador:
+
+bash
+Copy code
+git clone <URL_do_Repositorio_Remoto>
+
+## 7. Realizar Alterações e Registrar Commits
+Faça alterações em seus arquivos e registre essas mudanças com commits:
+
+bash
+Copy code
+git add .
+git commit -m "Descrição concisa da alteração"
+
+## 8. Visualizar Modificações Locais
+Veja quais arquivos foram modificados no repositório local:
+
+bash
+Copy code
+git status
+
+## 9. Listar Commits com git log
+Obtenha uma lista de commits com detalhes do autor, data e mensagem:
+
+bash
+Copy code
+git log
+
+## 10. Visualizar Repositórios Remotos com git remote
+Veja os repositórios remotos vinculados ao seu repositório local:
+
+bash
+Copy code
+git remote -v
+
+## 11. Enviar Commits para o Repositório Remoto
+Envie seus commits para o repositório remoto no GitHub:
+
+bash
+Copy code
+git push origin master
+
+## 12. Baixar Commits do Repositório Remoto
+Baixe commits do repositório remoto para o repositório local:
+
+bash
+Copy code
+git pull origin master
+
+## 13. Adicionar Colaboradores no GitHub
+No GitHub, vá para as configurações do seu repositório, clique em "Manage access" (Gerenciar acesso), e adicione colaboradores pelo nome de usuário ou endereço de e-mail.
+
+## 14. Aceitar Convites de Colaboração
+Se você foi convidado como colaborador, aceite o convite na seção de convites do seu perfil no GitHub.
+
+Lembre-se, esses são passos básicos, e há muito mais para aprender. Consulte a documentação oficial do Git e documentação do GitHub para aprofundar seu conhecimento.
+
+Continue explorando e praticando para se tornar cada vez mais proficiente no uso do Git e GitHub. Boas colaborações!
