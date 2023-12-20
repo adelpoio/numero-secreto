@@ -64,7 +64,8 @@ Lembre-se de consultar a [documentação do Git](https://git-scm.com/doc) e a [d
 
 ----------------------------Fim do Guia Iniciante-----------------------------
 
-#Guia Intermediário para Uso do GitHub e Git
+# Guia Intermediário para Uso do GitHub e Git
+
 Parabéns por continuar sua jornada no mundo do Git e GitHub! Nesta etapa, você aprenderá a interagir ainda mais com repositórios, realizar alterações, visualizar o histórico e colaborar com outras pessoas.
 
 Novos Conhecimentos Adquiridos
