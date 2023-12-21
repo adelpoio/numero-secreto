@@ -142,7 +142,7 @@ O Git sinaliza visualmente conflitos diretamente no código, indicando as áreas
 ## 18. Resolver Conflitos Manualmente
 Quando confrontado com conflitos, resolva manualmente editando o arquivo afetado para incorporar as mudanças desejadas. Após resolver, faça um novo commit para indicar que o conflito foi resolvido.
 
-## Revertendo Mudanças de um Commit com git revert
+## 19. Revertendo Mudanças de um Commit com git revert
 1. Revertendo um Commit:
 bash
 git revert <SHA-do-Commit>
@@ -152,7 +152,7 @@ Este comando cria um novo commit que desfaz as mudanças introduzidas pelo commi
 bash
 git revert abc123
 
-## Apagando um Commit do Histórico com git reset
+## 20. Apagando um Commit do Histórico com git reset
 1. Apagando um Commit Específico:
 bash
 git reset <SHA-do-Commit>
@@ -163,7 +163,7 @@ bash
 git reset abc123 --hard
 O parâmetro --hard remove as mudanças do commit do diretório de trabalho.
 
-## Modificando o Último Commit com git commit --amend
+## 21. Modificando o Último Commit com git commit --amend
 1. Modificando o Último Commit:
 bash
 git commit --amend
@@ -174,7 +174,7 @@ bash
 git commit --amend
 Isso abrirá o editor padrão para editar a mensagem do último commit.
 
-## Importante: Cuidados ao Modificar o Histórico
+## 22. Importante: Cuidados ao Modificar o Histórico
 Ao utilizar comandos como git revert, git reset ou git commit --amend, é essencial ter cuidado, especialmente se já tiver compartilhado seu histórico de commits com outros. Modificar o histórico pode causar conflitos e complicações em colaborações.
 
 Sempre comunique alterações significativas no histórico a outros colaboradores e evite realizar alterações no histórico público, se possível.
