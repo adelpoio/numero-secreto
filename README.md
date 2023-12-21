@@ -1,4 +1,4 @@
-# Guia do Iniciante ao Avançado para Uso do GitHub e Git
+# Guia do Iniciante ao Avançado para Uso do GitHub e Git e Controle de Versão
 
 Bem-vindo ao mundo do controle de versão com Git e hospedagem de código no GitHub! Este guia fornecerá os passos iniciais para você começar a compartilhar seus projetos de software, colaborar em projetos de outras pessoas e gerenciar suas versões de código.
 
@@ -142,7 +142,42 @@ O Git sinaliza visualmente conflitos diretamente no código, indicando as áreas
 ## 18. Resolver Conflitos Manualmente
 Quando confrontado com conflitos, resolva manualmente editando o arquivo afetado para incorporar as mudanças desejadas. Após resolver, faça um novo commit para indicar que o conflito foi resolvido.
 
+## Revertendo Mudanças de um Commit com git revert
+1. Revertendo um Commit:
+bash
+git revert <SHA-do-Commit>
+Este comando cria um novo commit que desfaz as mudanças introduzidas pelo commit especificado.
+
+2. Exemplo de Reversão de Commit:
+bash
+git revert abc123
+
+## Apagando um Commit do Histórico com git reset
+1. Apagando um Commit Específico:
+bash
+git reset <SHA-do-Commit>
+Este comando remove o commit especificado e desfaz automaticamente as alterações feitas por ele.
+
+2. Exemplo de Reset de Commit:
+bash
+git reset abc123 --hard
+O parâmetro --hard remove as mudanças do commit do diretório de trabalho.
+
+## Modificando o Último Commit com git commit --amend
+1. Modificando o Último Commit:
+bash
+git commit --amend
+Este comando permite modificar a mensagem ou adicionar mudanças ao último commit.
+
+2. Exemplo de Amend no Último Commit:
+bash
+git commit --amend
+Isso abrirá o editor padrão para editar a mensagem do último commit.
+
+## Importante: Cuidados ao Modificar o Histórico
+Ao utilizar comandos como git revert, git reset ou git commit --amend, é essencial ter cuidado, especialmente se já tiver compartilhado seu histórico de commits com outros. Modificar o histórico pode causar conflitos e complicações em colaborações.
+
+Sempre comunique alterações significativas no histórico a outros colaboradores e evite realizar alterações no histórico público, se possível.
 Estes são passos fundamentais ao trabalhar em equipe, garantindo que o código evolua de maneira coesa e eficiente.
 
-Continue explorando e praticando esses conceitos para aprimorar suas habilidades com o Git e GitHub. Consulte a documentação oficial do Git, documentação do GitHub, e as extensões do VSCode para Git para obter informações mais detalhadas.
-
+Este guia avançado fornece insights sobre como reverter mudanças, apagar commits específicos e modificar o último commit. Lembre-se de adaptar esses comandos ao seu fluxo de trabalho e às necessidades específicas do projeto. Consulte a documentação oficial do Git para mais informações. Boas práticas de controle de versão!
